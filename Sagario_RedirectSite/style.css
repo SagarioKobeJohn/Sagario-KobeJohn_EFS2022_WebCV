@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+div, section, span, ul, li, a, header{
+    box-sizing: border-box;
+}
+
+/*css reset*/
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+}
+
+#menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+#menu li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+section{
+    width: 100%;
+    float: left;
+    height: 100vh;
+    position: relative;
+}
+
+#home{
+   background-color: #59405C;
+}
+
+#bio{
+    background-image: url(bio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#skills{
+    background-image: url(skills.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hobbies{
+     background-color: #3C2C3E;
+}
+
+#ref{
+     background-color: #B52B65;
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+h2{
+    color:white
+}
+h3{
+    padding-top: 10%;
+    color: white;
+    font-size: 40pt;
+    text-align: center;
+}
+
+p2{
+    color: white;
+    font-size: 30pt;
+    font-family: 'Inder', sans-serif; 
+    padding: 0 0 15px 0; 
+    text-align: center;
+    
+}
+p{
+    border-top: 3px solid white; 
+    color: white;
+    font-size: 13pt;
+    font-family: 'Inder', sans-serif; 
+    border-bottom: 3px solid white; 
+    padding: 0 0 15px 0; 
+
+
+}
+p1{
+    font-size: 20px;
+    color: orange;
+    border-style: hidden;
+}
+
+img {
+    max-width: 9000px;
+    height: 200px;
+    }
+    .checked {
+        color: orange;
+      }
+
+
+      * {
+        box-sizing: border-box;
+      }
+      
+      .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+      }
+      
+      /* Clearfix (clear floats) */
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+      a:hover {
+        background-color: black;
+        border-bottom: 3px solid red;
+      }
+
+
+
+
